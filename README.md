@@ -14,3 +14,9 @@ Client for GnuPG -  Criptografia Assimétrica
 <li><code> ./autocrypto.sh </code></li>
 </ol>
 <img src="https://raw.githubusercontent.com/oandersonbsilva/AutoCrypto/master/image.png">
+
+# :exclamation: Requisitos
+
+<p>Um sistema operacional linux.🐧 </p>
+
+[![Dependency](https://img.shields.io/badge/Dependency-GnuPG%20-blue.svg)](https://www.gnupg.org/download/index.html)
