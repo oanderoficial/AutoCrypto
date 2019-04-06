@@ -1,4 +1,4 @@
-# AutoCrypto
+# 🔒 AutoCrypto
 Client for GnuPG -  Criptografia Assimétrica
 
 # Instalação
