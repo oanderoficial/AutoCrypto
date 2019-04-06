@@ -5,7 +5,7 @@ Client for GnuPG -  Criptografia Assimétrica
 
 <ol>
 <li><code>git clone https://github.com/oandersonbsilva/AutoCrypto.git</code></li>
-<li><code>cd autocrypto </code></li>
+<li><code>cd AutoCrypto </code></li>
 <li><code>chmod a+x autocrypto.sh</code></li>
 <li><code> ./autocrypto.sh </code></li>
 </ol>
