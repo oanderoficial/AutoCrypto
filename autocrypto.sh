@@ -103,7 +103,7 @@ function Instale () {
   echo -n -e $blue'  \t AutoCrypto:\033[0m >> '; tput sgr0
   echo -e "$yellow Precione [ENTER]:$white\n"
   read Instale
-  echo `apt install gnupg`
+  echo `apt-get install gnupg`
    clear
  }
 
