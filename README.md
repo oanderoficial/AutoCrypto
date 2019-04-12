@@ -2,7 +2,7 @@
 [![license](https://img.shields.io/badge/license-MIT-sucess.svg)](https://github.com/oandersonbsilva/AutoCrypto/blob/master/LICENSE)
 [![Dependency](https://img.shields.io/badge/Dependency-GnuPG%20-blue.svg)](https://www.gnupg.org/download/index.html)
 
-<img src="https://raw.githubusercontent.com/oandersonbsilva/AutoCrypto/master/logo.png">
+<img src="https://raw.githubusercontent.com/oandersonbsilva/AutoCrypto/master/Logo.png">
 
 # 🔒 AutoCrypto
 Client for GnuPG -  Criptografia Assimétrica
