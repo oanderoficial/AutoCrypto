@@ -22,3 +22,6 @@ Client for GnuPG -  Criptografia Assimétrica
 <p>Um sistema operacional linux.🐧 </p>
 
 [![Dependency](https://img.shields.io/badge/Dependency-GnuPG%20-blue.svg)](https://www.gnupg.org/download/index.html)
+# Minhas Redes
+<code><img height="100" width="100" src="https://raw.githubusercontent.com/oandersonbsilva/oandersonbsilva/master/code.png"></code>
+
