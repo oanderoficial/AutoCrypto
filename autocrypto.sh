@@ -61,7 +61,7 @@ function cripto () {
    echo `gpg -c $cripto`
    clear
    echo -e "$yellow[>] $green O Arquivo:$yellow $cripto $green foi Criptografado com Sucesso!"
-   echo -e "$yellow[>] $BlueF Para Descriptografar Opção: $yellow [2]"
+   echo -e "$yellow[>] $BlueF Para Descriptografar Opção: $yellow [3]"
 }
 
 function cripto2 () {
