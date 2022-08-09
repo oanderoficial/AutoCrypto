@@ -69,9 +69,9 @@ function cripto2 () {
   echo -e "$yellow Qual o Arquivo que Deseja Criptografar?:$white\n"
   read cripto2
   echo `gpg --cipher-algo AES256 --symmetric $cripto2`
-   clear
-   echo -e "$yellow[>] $green O Arquivo:$yellow $cripto2 $green foi Criptografado com Sucesso!"
-   echo -e "$yellow[>] $BlueF Para Descriptografar Opção: $yellow [3]"
+  clear
+  echo -e "$yellow[>] $green O Arquivo:$yellow $cripto2 $green foi Criptografado com Sucesso!"
+  echo -e "$yellow[>] $BlueF Para Descriptografar Opção: $yellow [3]"
 }
 
 function descripto () {
@@ -79,16 +79,16 @@ function descripto () {
   echo -e "$yellow Qual o Arquivo que Deseja Descriptografar?:$white\n"
   read descripto
   echo `gpg --decrypt-files $descripto`
-   clear
-   echo -e "$yellow[>] $green O Arquivo:$yellow $descripto $green foi Descriptografado com Sucesso!"
+  clear
+  echo -e "$yellow[>] $green O Arquivo:$yellow $descripto $green foi Descriptografado com Sucesso!"
 }
 
 function chaves () {
-   echo -n -e $blue'  \t AutoCrypto:\033[0m >> '; tput sgr0
-   echo -e $yellow "Precione [ENTER]"
-   read chaves
-   clear
-   echo -e `gpg --gen-key`
+  echo -n -e $blue'  \t AutoCrypto:\033[0m >> '; tput sgr0
+  echo -e $yellow "Precione [ENTER]"
+  read chaves
+  clear
+  echo -e `gpg --gen-key`
 }
 
 function existentes () {
@@ -96,7 +96,7 @@ function existentes () {
   echo -e "$yellow Precione [ENTER]:$white\n"
   read existentes
   echo `gpg --list-keys`
-   clear
+  clear
 }
 
 function Instale () {
@@ -104,7 +104,7 @@ function Instale () {
   echo -e "$yellow Precione [ENTER]:$white\n"
   read Instale
   echo `apt-get install gnupg`
-   clear
+  clear
  }
 
 function sair()
